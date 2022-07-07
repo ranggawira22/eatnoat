@@ -12,7 +12,7 @@ class Admin extends Authenticatable
 
     /**
      * The attributes that are mass assignable.
-     *
+     * Halo ini rangga
      * @var array
      */
     protected $table = 'admins';
