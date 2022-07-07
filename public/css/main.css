@@ -1,0 +1,85 @@
+nav {
+    /* background: #1a936f; */
+    background: white;
+    box-shadow: 0px 1px 1px rgba(100, 100, 100, 0.2);
+}
+
+.drop-hover {
+    color: #777;
+}
+.drop-hover:hover {
+    color: #333;
+}
+
+.drop-profile {
+    display: none;
+    width: max-content;
+    position: absolute;
+    right: 8px;
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid #efefef;
+    margin-top: 16px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 99;
+}
+
+.drop-link {
+    display: block;
+    color: #ababab;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.drop-link:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+#content {
+    min-height: 60vh;
+}
+
+footer {
+    background: #fff;
+    border-top: 1px solid #ccc;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: 4fr 1fr;
+}
+
+.footer-links {
+    padding: 15px 0px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+div.footer h5 {
+    color: #1a936f;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+div.footer a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+}
+
+div.footer a:hover {
+    color: #1a936f;
+}
+
+.footer-copy {
+    /* background: #0c4e3a; */
+    color: #aaa;
+    display: grid;
+    align-items: center;
+}
+
+.footer-copy a {
+    font-weight: bold;
+    color: #aaa;
+}

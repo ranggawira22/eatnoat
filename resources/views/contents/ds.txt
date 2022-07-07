@@ -1,0 +1,11 @@
+Order data structure
+======================
+- id | primary
+- invoice_id | Unique
+- user_id
+- order_status
+- item_name
+- quantity
+- option
+- message
+- total_price
